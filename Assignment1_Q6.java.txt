@@ -1,0 +1,6 @@
+public class Assignment1_Q6 {
+    public static void main(String[] args) {
+        int result = 2 + 3;
+        System.out.println("Sum of 2 and 3 is: " + result);
+    }
+}

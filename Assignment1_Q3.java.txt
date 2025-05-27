@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Assignment1_Q3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter User ID: ");
+        String userId = sc.nextLine();
+
+        if (userId.equals("Jake123")) {
+            System.out.println("Name: Jake");
+            System.out.println("Age: 25");
+        } else {
+            System.out.println("Invalid User ID.");
+        }
+    }
+}
